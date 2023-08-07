@@ -13,6 +13,7 @@
     NB: DILARANG menggunakan built-in function PHP seperti strrev() dll. Gunakan looping seperti biasa atau gunakan function reverseString dari jawaban no.2!
     */
     
+
     // Code function di sini
     function palindrome($string) {
         $length = strlen($string);
@@ -27,6 +28,7 @@
         echo $palindrome ? "true" : "false";
         echo "<br>";
     }
+    
     
     // Hapus komentar di bawah ini untuk jalankan code
     palindrome("civic");   // Output: true

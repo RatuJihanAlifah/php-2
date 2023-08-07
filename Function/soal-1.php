@@ -18,5 +18,5 @@
     // Hapus komentar untuk menjalankan code!
     greetings("Ratu");
     greetings("Jihan");
-    greetings("Alifah Hasanah");
+    greetings("Alifah");
 ?>

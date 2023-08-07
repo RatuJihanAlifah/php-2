@@ -12,11 +12,11 @@
     */
     
     // Code function di sini
-    function reverseString($nayif) {
-        $length = strlen($nayif);
+    function reverseString($ratu) {
+        $length = strlen($ratu);
         $bolakBalikHuruf = '';
         for ($i = $length - 1; $i >= 0; $i--) {
-            $bolakBalikHuruf .= $nayif[$i];
+            $bolakBalikHuruf .= $ratu[$i];
         }
         echo($bolakBalikHuruf . "<br>");
     }
